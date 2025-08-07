@@ -1,0 +1,7 @@
+flowchart TD
+    A[Necesita nueva comida] --> B[Obtener posiciones ocupadas]
+    B --> C[Generar coordenadas aleatorias X,Y]
+    C --> D{Posición libre?}
+    D -->|No| C
+    D -->|Sí| E[Almacenar posición comida]
+    E --> F[Dibujar comida en pantalla]
