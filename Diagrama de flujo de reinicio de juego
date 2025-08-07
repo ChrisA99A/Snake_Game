@@ -1,0 +1,8 @@
+flowchart TD
+    A[Game Over] --> B[Mostrar mensaje]
+    B --> C{Presiona tecla R?}
+    C -->|Sí| D[Reiniciar puntuación]
+    D --> E[Resetear posición serpiente]
+    E --> F[Generar nueva comida]
+    F --> G[Reanudar Game Loop]
+    C -->|No| H[Esperar acción]
