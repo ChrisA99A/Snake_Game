@@ -1,0 +1,9 @@
+snake_game/
+├── main.py                # Punto de entrada
+├── game_controller.py     # Orquestación principal
+├── input_manager.py       # Manejo de teclado
+├── snake_engine.py        # Lógica de movimiento/colisiones
+├── food_system.py         # Generación de comida
+├── score_tracker.py       # Puntuación
+├── renderer.py            # Gráficos
+└── ui_manager.py          # Interfaz de usuario
