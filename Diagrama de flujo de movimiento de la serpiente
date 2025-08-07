@@ -1,9 +1,0 @@
-flowchart TD
-    A[Tecla dirección presionada] --> B{Dirección válida?}
-    B -->|No| C[Ignorar entrada]
-    B -->|Sí| D[Actualizar dirección cabeza]
-    D --> E[Calcular nueva posición cabeza]
-    E --> F[Actualizar cuerpo: Mover segmentos]
-    F --> G[Verificar colisiones]
-    G -->|Colisión| H[Game Over]
-    G -->|Sin colisión| I[Actualizar gráficos]
